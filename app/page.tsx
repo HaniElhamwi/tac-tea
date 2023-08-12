@@ -1,5 +1,11 @@
-import Image from "next/image";
+import { Hero, Products, Guarantee } from "@/components/home";
 
 export default function Home() {
-  return <main></main>;
+  return (
+    <main>
+      <Hero />
+      <Products />
+      <Guarantee />
+    </main>
+  );
 }
