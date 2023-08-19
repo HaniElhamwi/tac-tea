@@ -38,11 +38,13 @@ export function Hero() {
           variants={textVariant(0.7)}>
           Shop Now
         </motion.button>
-        <motion.div
-          className="absolute right-16 -z-10 w-full"
-          variants={teaPots()}>
-          <img src="/assets/images/tea-kettle-1.png" alt="" />
-        </motion.div>
+        <div className="w-full relative">
+          <motion.div
+            className="absolute -z-10 w-full max-w-[700px]"
+            variants={teaPots()}>
+            <img src="/assets/images/tea-kettle-1.png" alt="" />
+          </motion.div>
+        </div>
       </motion.div>
     </motion.div>
   );

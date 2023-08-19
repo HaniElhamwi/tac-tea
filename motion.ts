@@ -178,14 +178,14 @@ export const bottleVariants = (direction: string, xDire?: number) => ({
 
 export const teaPots = () => ({
   hidden: {
-    y: "50%",
+    y: "-40%",
     opacity: 0.3,
     x: 0,
   },
   show: {
     rotate: [0],
-    x: "60%",
-    y: "50%",
+    x: "100%",
+    y: "-40%",
     opacity: 1,
     transition: {
       type: "spring",
