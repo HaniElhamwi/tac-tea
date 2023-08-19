@@ -25,7 +25,7 @@ export function Hero() {
         <motion.div
           className="text-center text-white mb-2"
           variants={textVariant(0.2)}>
-          HAND MADE TEA SET
+        w
         </motion.div>
         <motion.div
           className="font-titles text-center text-8xl font-titles text-secondary"
