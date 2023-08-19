@@ -13,7 +13,13 @@ export function Nav() {
     <div className="absolute top-3 z-50 w-full">
       <div className="container mx-auto">
         <div className="flex justify-between items-center mt-0">
-          <Image src="/assets/logo.png" alt="" width={200} height={200} />
+          <Image
+            src="/assets/logo.png"
+            alt=""
+            width={200}
+            height={200}
+            className="md:w-[200px] w-[100px]"
+          />
           <div className="flex gap-5">
             <Link
               href="/"
@@ -38,7 +44,7 @@ export function Nav() {
             </Link>
           </div>
 
-          <div className="text-lg text-white ">EN</div>
+          <div className="text-lg text-white mr-2">EN</div>
         </div>
       </div>
     </div>

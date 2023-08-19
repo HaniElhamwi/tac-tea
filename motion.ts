@@ -162,10 +162,10 @@ export const bottleVariants = (direction: string, xDire?: number) => ({
   hidden: {
     y: direction === "bottom" ? "-300%" : "300%",
     opacity: 1,
-    x: "50%",
+    x: "0",
   },
   show: {
-    x: "50%",
+    x: "0%",
     y: xDire ? xDire : 0,
     opacity: 1,
     transition: {

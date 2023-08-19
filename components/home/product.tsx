@@ -12,7 +12,7 @@ export function Products() {
       initial="hidden"
       viewport={{ once: true }}
       whileInView="show">
-      <div className="container mx-auto flex flex-row">
+      <div className="container mx-auto flex md:flex-row flex-col">
         <div className="flex justify-center flex-col text-left">
           <motion.h6
             className="text-secondary text-2xl font-titles font-extrabold text-left"
@@ -43,7 +43,6 @@ export function Products() {
             }}>
             <img src="/assets/leaves.webp" alt="" className="" />
           </motion.div>
-
           <img
             src="/assets/tac_product.png"
             alt=""

@@ -8,7 +8,6 @@ import {
   teaPots,
   textContainer,
   textVariant,
-  textVariant2,
 } from "@/motion";
 
 export function Hero() {
